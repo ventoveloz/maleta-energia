@@ -7,78 +7,72 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f6f6f6;
+      background-color: #f4f4f4;
       margin: 0;
-      padding: 20px;
+      padding: 10px;
       text-align: center;
     }
     .container {
-      max-width: 800px;
+      max-width: 480px;
       margin: auto;
       background: #fff;
-      padding: 30px;
+      padding: 20px;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     h1 {
       color: #007BFF;
+      font-size: 1.6em;
+      margin-bottom: 10px;
     }
     p {
-      color: #555;
+      color: #444;
+      font-size: 1em;
+      margin: 10px 0;
     }
     .produto {
-      margin-top: 40px;
+      margin-top: 30px;
+      text-align: center;
     }
     .produto h2 {
-      margin-bottom: 10px;
+      font-size: 1.3em;
       color: #222;
+      margin-bottom: 8px;
     }
     .imagens {
       display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 15px;
+      overflow-x: auto;
+      gap: 8px;
+      padding-bottom: 10px;
     }
     .imagens img {
-      width: 140px;
+      height: 120px;
       border-radius: 10px;
     }
     .qrcode {
-      width: 200px;
+      width: 180px;
       margin: 20px auto;
-      border-radius: 10px;
+      display: block;
+    }
+    .preco {
+      font-weight: bold;
+      margin-top: 5px;
+      color: #333;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 0.8em;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>📦 Uber Help Road</h1>
-    <p>Ajude a financiar o protótipo da Maleta de Carga Juniper adquirindo produtos de energia portátil. Escaneie o QR Code abaixo para acessar diretamente a loja.</p>
+    <p>Ajude a financiar o protótipo da Maleta Juniper adquirindo nossos produtos portáteis. Escaneie o QR Code abaixo para acessar a loja.</p>
 
     <img src="qrcode_shorby.png" alt="QR Code" class="qrcode">
 
     <div class="produto">
       <h2>🔌 Cabo Rápido 3 em 1</h2>
       <div class="imagens">
-        <img src="https://i.imgur.com/ysZ9Ggo.png" alt="Cabo 1">
-        <img src="https://i.imgur.com/7MSBcW2.png" alt="Cabo 2">
-        <img src="https://i.imgur.com/5BFfxKy.png" alt="Cabo 3">
-      </div>
-      <p>Cabo carregador rápido com conectores Micro USB, Type-C e iOS. Prático e ideal para viagens e uso diário. <br><strong>Preço: R$ 39,90</strong></p>
-    </div>
-
-    <div class="produto">
-      <h2>🔋 Mini Power Bank Portátil</h2>
-      <div class="imagens">
-        <img src="https://i.imgur.com/W958h5Z.png" alt="PowerBank 1">
-        <img src="https://i.imgur.com/IURLamk.png" alt="PowerBank 2">
-        <img src="https://i.imgur.com/jNS8eIO.png" alt="PowerBank 3">
-      </div>
-      <p>Carregador portátil compacto, perfeito para manter seu celular carregado em qualquer situação. Compatível com iPhone, Samsung e Xiaomi. <br><strong>Preço: R$ 49,90</strong></p>
-    </div>
-
-    <p style="margin-top: 40px; font-size: 0.9em; color: #aaa;">Este catálogo faz parte do financiamento inicial da Maleta Juniper — um projeto de energia solar portátil e autônoma.</p>
-  </div>
-</body>
-</html>
